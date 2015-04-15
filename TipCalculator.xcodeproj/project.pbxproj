@@ -13,6 +13,7 @@
 		20FBB6A41ADEDA03000C8043 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FBB6A31ADEDA03000C8043 /* Images.xcassets */; };
 		20FBB6A71ADEDA03000C8043 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FBB6A51ADEDA03000C8043 /* LaunchScreen.xib */; };
 		20FBB6B31ADEDA04000C8043 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FBB6B21ADEDA04000C8043 /* TipCalculatorTests.swift */; };
+		20FBB6BD1ADEDBB9000C8043 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FBB6BC1ADEDBB9000C8043 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		20FBB6AC1ADEDA04000C8043 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FBB6B11ADEDA04000C8043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20FBB6B21ADEDA04000C8043 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		20FBB6BC1ADEDBB9000C8043 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		20FBB68E1ADEDA03000C8043 = {
 			isa = PBXGroup;
 			children = (
+				20FBB6BC1ADEDBB9000C8043 /* TipCalculatorModel.swift */,
 				20FBB6991ADEDA03000C8043 /* TipCalculator */,
 				20FBB6AF1ADEDA04000C8043 /* TipCalculatorTests */,
 				20FBB6981ADEDA03000C8043 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20FBB6BD1ADEDBB9000C8043 /* TipCalculatorModel.swift in Sources */,
 				20FBB69F1ADEDA03000C8043 /* ViewController.swift in Sources */,
 				20FBB69D1ADEDA03000C8043 /* AppDelegate.swift in Sources */,
 			);
@@ -341,8 +345,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -351,8 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
